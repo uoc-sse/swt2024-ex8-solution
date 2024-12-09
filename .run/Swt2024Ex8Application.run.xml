@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Swt2024Ex8Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <module name="swt2024-ex8" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="org.uocsse.swt2024ex8.Swt2024Ex8Application" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

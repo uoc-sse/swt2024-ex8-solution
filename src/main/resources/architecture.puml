@@ -1,0 +1,30 @@
+@startuml
+
+class Product {
+  - long id
+  - String name
+  - String description
+  - int price
+}
+
+class Store {
+  - long id
+  - String location
+}
+
+class Employee {
+  - long id
+  - String name
+  - int age
+}
+
+class Stock {
+  - int quantity
+}
+
+Product "1..*" <- "0..*" Store : "     "
+(Product, Store) .. Stock
+
+Store "1" o- "1..*" Employee :"               "
+
+@enduml
